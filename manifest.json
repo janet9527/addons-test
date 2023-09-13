@@ -1,0 +1,41 @@
+{
+    "author": "24min",
+    "name": "__MSG_name__",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "default_locale": "zh_CN",
+    "description": "__MSG_description__",
+    "icons": {
+        "16": "icons/icon.png",
+        "32": "icons/icon.png",
+        "48": "icons/icon.png",
+        "128": "icons/icon.png"
+    },
+    "page_action": {
+        "default_icon": "icons/icon.png",
+        "default_title": "test"
+    },
+    "content_security_policy":"script-src 'self' 'unsafe-eval';object-src 'self'",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.baidu.com/"
+            ],
+            "run_at": "document_idle",
+            "js": [
+                "utils/opencv.js",
+                "content/searchData.js"
+            ]
+        }
+    ],
+    "web_accessible_resources": [
+        "icons/*.png"
+    ],
+    "permissions": [
+        "storage",
+        "activeTab",
+        "tabs",
+        "alarms",
+        "webRequest"
+    ]
+}
