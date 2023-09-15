@@ -13,7 +13,7 @@ I'm currently working on a Firefox plugin.This plugin uses OpenCV.js.When I run 
 **InvalidStateError: CanvasRenderingContext2D.putImageData: Failed to extract Uint8ClampedArray from ImageData (security check failed?)**
 
 This makes me very puzzled, because Firefox directly accesses the official website of OpenCV without an error, but using OpenCV.js through a plugin reports an error.
---There is no issue in the firefox ESR102 release--,But it will fail when I run it in my Firefox 118、Firefox 117.
+~~There is no issue in the firefox ESR102 release~~,But it will fail when I run it in my Firefox 118、Firefox 117.
 
 -----------------------------------------------------------
 Latest corrections :
