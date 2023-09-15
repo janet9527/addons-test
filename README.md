@@ -22,7 +22,11 @@ https://discourse.mozilla.org/t/invalidstateerror-canvasrenderingcontext2d-putim
 Firefox plugin use opencv.js error:
 ![err](https://github.com/janet9527/addons-test/blob/main/img/err.png?raw=true)
 
+Use Firefox to visit the OpenCV website (success):
+![](https://github.com/janet9527/addons-test/blob/main/img/visitOpencvSuccess.jpeg?raw=true)
 
+Use chrome run the plugin(success):
+![](https://github.com/janet9527/addons-test/blob/main/img/chromPluginSUccess.png?raw=true)
 
 # post
 
